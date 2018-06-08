@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleConfigInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <NovelIntro>
+  <RegexName>NovelIntro</RegexName>
+  <Pattern>&lt;meta property="og:description" content="((.|\n)*?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelIntro>
+ <PubContentText>
+  <RegexName>PubContentText</RegexName>
+  <Pattern>&lt;div id="content" name="content"&gt;((.|\n)*?)&lt;/div&gt;</Pattern>
+  <Method/>
+  <FilterPattern>小÷说→网 WwW.800TXT.NET】，精彩小说无弹窗免费阅读！♂小÷说→网 WwW.800TXT.NET】，精彩小说无弹窗免费阅读！
+一秒记住【800♂小÷说→网 WwW.800TXT.NET】，精彩小说无弹窗免费阅读！
+小÷说→网 】，！♂小÷说→网 】，！
+小÷说→网 】，！♂小÷说→网 】，！
+小÷说
+小÷说→网 】，精彩小说无弹窗免费阅读！♂小÷说→网 】，精彩小说无弹窗免费阅读！
+小÷说→网 WwW.800TXT.NET】，精彩小说无弹窗免费阅读！♂小÷说→网 WwW.800TXT.NET】，精彩小说无弹窗免费阅读！
+WWW.800TXT.NET
+800{2,40}说
+WwW.800TXT.NET
+小÷说→网 】
+小÷说→网
+WwW.800TXT.NET】
+小÷说→网 】，！
+小÷说→网 】，，小÷说→网 】，！♂小÷说→网 】，，小÷说→网 】，！
+小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！♂小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！
+小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！♂小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！
+ps：想听到更多你们的声音.{40,80}更多支持！
+精彩小说无弹窗免费阅读
+小÷说→网 】，！♂小÷说→网 】，！
+小÷说→网 】
+，，小÷说→网 】，！♂，，小÷说→网 】，！
+，，
+&lt;a.+?&gt;
+&amp;nbsp;
+&lt;/a&gt;
+\^
+\~
+\*
+\,
+\，
+\→
+→
+→网 】→网 】小÷说→网 】，！♂→网 】→网 】小÷说→网 】，！
+&lt;div.+?&gt;
+&lt;/div&gt;
+，，{2,40}小i
+&lt;小&gt;&lt;说&gt;网
+小÷说→网 】，
+小
+说
+网
+】
+小÷说→网 】，！♂  小÷说→网 】，！
+nbsp;小÷说→网 】，！♂  小÷说→网 】，！
+小÷说→网 】，！♂小÷说→网 】，！
+！♂小÷说→网 】，！
+-小-说-网-
+:小:说:网
+《小》《说》
+\?小\?说\?网
+［小]\[说］网
+&lt;小&gt;&lt;说&gt;网
+$小$说$网
+小说\.网。小说
+小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！♂小÷说→网 WwW.800TXT.NET】，，小÷说→网 】，！
+&lt;script.+?&lt;/script&gt;|&lt;div.+?&gt;|&lt;/div&gt;|&lt;p&gt;|&lt;/p&gt;
+3w.{6,30}com
+www.{6,30}com
+www.{6,30}cn
+www.{6,30}net
+www.{6,30}org
+&lt;font.+?&lt;/font&gt;
+&lt;a.+?&lt;/a&gt;
+【&lt;b&gt;(.|\n)*?&lt;/B&gt;】♂</FilterPattern>
+  <Options/>
+ </PubContentText>
+ <NovelSearchUrl>
+  <RegexName>NovelSearchUrl</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelSearchUrl>
+ <NovelList_GetNovelKey>
+  <RegexName>NovelList_GetNovelKey</RegexName>
+  <Pattern>&lt;span class="s2"&gt;&lt;a href="http://www.800txt.net/book_(\d+)/"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelList_GetNovelKey>
+ <NovelListUrl>
+  <RegexName>NovelListUrl</RegexName>
+  <Pattern>http://www.800txt.net</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelListUrl>
+ <PubChapterRegion>
+  <RegexName>PubChapterRegion</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubChapterRegion>
+ <NovelName>
+  <RegexName>NovelName</RegexName>
+  <Pattern>&lt;meta property="og:title" content="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelName>
+ <NovelSearch_GetNovelName>
+  <RegexName>NovelSearch_GetNovelName</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelSearch_GetNovelName>
+ <NovelList_GetNovelKey2>
+  <RegexName>NovelList_GetNovelKey2</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelList_GetNovelKey2>
+ <LagerSort>
+  <RegexName>LagerSort</RegexName>
+  <Pattern>&lt;meta property="og:novel:category" content="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </LagerSort>
+ <SmallSort>
+  <RegexName>SmallSort</RegexName>
+  <Pattern>&lt;meta property="og:novel:category" content="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </SmallSort>
+ <GetSiteUrl>
+  <RegexName>GetSiteUrl</RegexName>
+  <Pattern>http://www.800txt.net</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteUrl>
+ <TestSearchNovelName>
+  <RegexName>TestSearchNovelName</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </TestSearchNovelName>
+ <NovelDegree>
+  <RegexName>NovelDegree</RegexName>
+  <Pattern>&lt;meta property="og:novel:status" content="(.+?)"/&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelDegree>
+ <PubContentText_FT2JT>
+  <RegexName>PubContentText_FT2JT</RegexName>
+  <Pattern>false</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentText_FT2JT>
+ <NovelAuthor>
+  <RegexName>NovelAuthor</RegexName>
+  <Pattern>&lt;meta property="og:novel:author" content="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelAuthor>
+ <NovelInfo_GetNovelPubKey>
+  <RegexName>NovelInfo_GetNovelPubKey</RegexName>
+  <Pattern>&lt;meta property="og:novel:read_url" content="(.+?)"/&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelInfo_GetNovelPubKey>
+ <PubContentText_ASCII>
+  <RegexName>PubContentText_ASCII</RegexName>
+  <Pattern>false</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentText_ASCII>
+ <NovelCover>
+  <RegexName>NovelCover</RegexName>
+  <Pattern>&lt;meta property="og:image" content="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelCover>
+ <RuleVersion>
+  <RegexName>RuleVersion</RegexName>
+  <Pattern>2</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </RuleVersion>
+ <PubContentText_BJ2QJ>
+  <RegexName>PubContentText_BJ2QJ</RegexName>
+  <Pattern>false</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentText_BJ2QJ>
+ <NovelInfoExtra>
+  <RegexName>NovelInfoExtra</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelInfoExtra>
+ <PubIndexUrl>
+  <RegexName>PubIndexUrl</RegexName>
+  <Pattern>/book_{NovelPubKey}</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubIndexUrl>
+ <NovelDefaultCoverUrl>
+  <RegexName>NovelDefaultCoverUrl</RegexName>
+  <Pattern>http://www.800txt.net/cover/nocover.jpg</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelDefaultCoverUrl>
+ <PubContentUrl2>
+  <RegexName>PubContentUrl2</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentUrl2>
+ <PubContentUrl>
+  <RegexName>PubContentUrl</RegexName>
+  <Pattern>/book_{NovelKey}/{ChapterKey}</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentUrl>
+ <GetSiteName>
+  <RegexName>GetSiteName</RegexName>
+  <Pattern>采集站</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteName>
+ <PubChapterName>
+  <RegexName>PubChapterName</RegexName>
+  <Pattern>&lt;dd&gt;&lt;a href=".+?"&gt;(.+?)&lt;/a&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubChapterName>
+ <GetSiteCharset>
+  <RegexName>GetSiteCharset</RegexName>
+  <Pattern>gbk</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteCharset>
+ <PubChapter_GetChapterKey>
+  <RegexName>PubChapter_GetChapterKey</RegexName>
+  <Pattern>&lt;dd&gt;&lt;a href="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubChapter_GetChapterKey>
+ <NovelSearch_GetNovelKey>
+  <RegexName>NovelSearch_GetNovelKey</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelSearch_GetNovelKey>
+ <NovelKeyword>
+  <RegexName>NovelKeyword</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelKeyword>
+ <NovelUrl>
+  <RegexName>NovelUrl</RegexName>
+  <Pattern>http://www.800txt.net/book_{NovelKey}</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelUrl>
+</RuleConfigInfo>
